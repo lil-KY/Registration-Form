@@ -1,0 +1,208 @@
+body {
+	background:#eee;
+	font-family:arial;
+}
+
+h1 {
+	color: #800000;
+	font-size: 300%;
+	text-align: center;
+}
+
+h2 {
+	margin: 1% 0 .25% 1%;
+}
+
+p {
+	justify-content: center;
+	margin:5px 1%;
+	text-align: center;
+	text-align: justify;
+}
+
+fieldset {
+    border: 1px solid;
+    box-shadow: 10px 10px 30px #888888;
+    background: #ddd;
+    margin:20px auto 30px auto;
+    width:50%;
+    position:relative;
+    padding:75px 20px 20px;
+}
+
+legend {
+	font-size: 150%;
+    font-weight:bold;
+    margin-bottom: 100px;
+    position:absolute;
+    top:20px;
+}
+
+input {
+	border: 2px solid #b3b6b7;
+	border-radius: 5px;
+}
+
+label {
+	font-size:16px;
+	margin-right:20px;
+}
+
+tr {
+	height: 15px;
+	margin-bottom: 0;
+	width: 3000px;
+}
+
+table {
+	table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;   
+}
+
+td {
+	width:150px;
+}
+
+table {
+	min-width: 400px;
+}
+
+td {
+	overflow: hidden;
+}
+
+input[type=text], input[type="tel"], input[type="email"] {
+	width: 100%;
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+
+td+td {
+	width: auto;
+}
+
+form > div {
+	margin: auto;
+	width:61.3%;
+}
+
+input:hover {
+	border: 2px solid #2c3e50;
+	border-radius: 3px;
+}
+
+input:focus {
+	border: 2px solid #2c3e50;
+	border-radius: 3px;
+}
+
+label.error {
+	color:red;
+	font-size: 10px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.address {
+	display:inline-block;
+}
+
+.addresses {
+	display: inline-block;
+	float: left;
+	margin-right:24px;
+}
+
+.dob, .dobTwo, .dobThree, .dobFour, .dobFive, .grade {
+	width:40px;
+}
+
+.hide {
+	display: none;
+}
+
+.submit {
+	background:  #ccc ;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 23px;
+	font-weight: 590;
+	margin-top: 20px;
+	margin-left: 45%;
+	padding: 5px 10px;
+}
+
+.nextButton {
+	width: 50%;
+	float: right;
+}
+
+.submit:hover {
+	box-shadow: 2px 2px 5px #666;
+	text-shadow: 2px 2px 50px #333;
+}
+
+.field label.doesHave {
+	display:inline-block;
+	text-align: justify;
+	width:300px;
+}
+
+.field label.numAttend {
+	margin-right: 5px;
+	padding:0;
+}
+
+.field label.selection {
+	display:inline;
+	width:30px;
+	margin-right:15px;
+}
+
+.field input.allergyText {
+	margin-top: 15px;
+	width: 350px;
+}
+
+#childAttend {
+	width:225px;
+}
+
+#totalCost {
+	display: none;
+}
+
+#numOfChildren {
+	display: none;
+}
+
+#agreement {
+	border: 1px solid;
+    box-shadow: none;
+    background: #ddd;
+    margin:20px auto;
+    width:60%;
+    position:relative;
+    padding:.5% .5% .5%;
+}
+
+#submitButton:disabled {
+	cursor: auto;
+	border: 0;
+	border-radius: 0;
+	box-shadow: 0 0 0;
+	text-shadow: 0 0 0;
+}
+
+#street {
+	width: 100%;
+}
+
+.allergyText {
+	width: 99%;
+}
+
+
+

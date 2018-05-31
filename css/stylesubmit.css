@@ -1,0 +1,43 @@
+body {
+	background: #eee;
+}
+
+a {
+	margin-right: 40px;
+}
+
+p {
+	margin: 1px 0;
+}
+
+button {
+	cursor: pointer;
+	margin-right: 40px;
+}
+p.linebreak {
+	margin-bottom: 15px;
+}
+
+.button {
+	margin: auto;
+	text-align: center;
+}
+
+.main {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	height: auto;
+}
+
+.text {
+	text-align: left;
+}
+
+.likeabutton {
+    appearance: button;
+    -moz-appearance: button;
+    -webkit-appearance: button;
+    text-decoration: none; font: menu; color: ButtonText;
+    display: inline-block; padding: 2px 8px;
+}
